@@ -22,6 +22,7 @@
 		5D72C1411925D29E00A6402A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D72C1201925D29E00A6402A /* UIKit.framework */; };
 		5D72C1491925D29E00A6402A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D72C1471925D29E00A6402A /* InfoPlist.strings */; };
 		5D72C14B1925D29E00A6402A /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72C14A1925D29E00A6402A /* Git_TestTests.m */; };
+		5D72C1561927D37800A6402A /* CTITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D72C1551927D37800A6402A /* CTITest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		5D72C1461925D29E00A6402A /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		5D72C1481925D29E00A6402A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D72C14A1925D29E00A6402A /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		5D72C1541927D37800A6402A /* CTITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTITest.h; sourceTree = "<group>"; };
+		5D72C1551927D37800A6402A /* CTITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTITest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				5D72C1311925D29E00A6402A /* Main_iPad.storyboard */,
 				5D72C1341925D29E00A6402A /* CTIViewController.h */,
 				5D72C1351925D29E00A6402A /* CTIViewController.m */,
+				5D72C1541927D37800A6402A /* CTITest.h */,
+				5D72C1551927D37800A6402A /* CTITest.m */,
 				5D72C1371925D29E00A6402A /* Images.xcassets */,
 				5D72C1231925D29E00A6402A /* Supporting Files */,
 			);
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D72C1561927D37800A6402A /* CTITest.m in Sources */,
 				5D72C1291925D29E00A6402A /* main.m in Sources */,
 				5D72C12D1925D29E00A6402A /* CTIAppDelegate.m in Sources */,
 				5D72C1361925D29E00A6402A /* CTIViewController.m in Sources */,
